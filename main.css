@@ -1,0 +1,20 @@
+body {
+  background-color: burlywood;
+}
+main {
+  width: 50vw;
+  margin: 100px auto 0 auto;
+  display: grid;
+  grid-template-columns: 90px 600px;
+  gap: 1rem;
+}
+div#left {
+  background-color: green;
+  height: 90px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  background-image: url("https://api.dicebear.com/9.x/pixel-art/svg?=vuyo");
+}
+div#right {
+  background-color: red;
+}
