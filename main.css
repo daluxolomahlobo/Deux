@@ -1,5 +1,5 @@
 body {
-  background-color: burlywood;
+  background-color: rgb(13, 91, 105);
 }
 main {
   width: 50vw;
@@ -9,11 +9,12 @@ main {
   gap: 1rem;
 }
 div#left {
-  background-color: green;
+  background-color: blue;
   height: 90px;
   aspect-ratio: 1;
   border-radius: 100%;
-  background-image: url("https://api.dicebear.com/9.x/pixel-art/svg?=vuyo");
+  background-image: url("images/avatar.webp");
+  background-size: cover;
 }
 div#right {
   background-color: red;
